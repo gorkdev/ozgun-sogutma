@@ -1,0 +1,3877 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Özgün Teknik Soğutma | Soğuk Hava Depoları & Endüstriyel Soğutma - Tekirdağ</title>
+  <meta name="description"
+    content="Özgün Teknik Soğutma - Soğuk hava depoları, şok odası sistemleri, endüstriyel soğutma ve ticari soğutucu reyonlar. Tekirdağ ve Trakya bölgesinde anahtar teslim soğutma çözümleri.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #0A1628;
+      --navy-light: #122240;
+      --steel: #1B3A5C;
+      --ice: #00B4D8;
+      --ice-light: #48CAE4;
+      --ice-dark: #0096B7;
+      --frost: #CAF0F8;
+      --arctic: #90E0EF;
+      --polar: #ADE8F4;
+      --text: #1E293B;
+      --text2: #475569;
+      --text3: #94A3B8;
+      --bg: #FFFFFF;
+      --bg2: #F0F9FF;
+      --bg3: #E0F2FE;
+      --border: #BAE6FD;
+      --white: #FFFFFF;
+      --shadow-sm: 0 1px 3px rgba(10, 22, 40, 0.06);
+      --shadow-md: 0 4px 16px rgba(10, 22, 40, 0.08);
+      --shadow-lg: 0 12px 40px rgba(10, 22, 40, 0.12);
+      --r: 8px;
+      --transition: 0.3s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--navy);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--arctic);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--ice);
+    }
+
+    html {
+      scrollbar-color: var(--arctic) var(--navy);
+      scrollbar-width: thin;
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
+
+    body {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      overflow-x: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ========== HEADER ========== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(10, 22, 40, 0.45);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      transition: var(--transition);
+    }
+
+    .header.scrolled {
+      background: rgba(10, 22, 40, 0.92);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+      position: relative;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      filter: brightness(0) invert(1);
+      transition: var(--transition);
+    }
+
+    .nav {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .nav > a,
+    .nav-dropdown > .nav-link {
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.7);
+      border-radius: 6px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .nav > a:hover,
+    .nav > a.active,
+    .nav-dropdown:hover > .nav-link {
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .header.scrolled .nav > a,
+    .header.scrolled .nav-dropdown > .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .header.scrolled .nav > a:hover,
+    .header.scrolled .nav > a.active,
+    .header.scrolled .nav-dropdown:hover > .nav-link {
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Dropdown */
+    .nav-dropdown {
+      position: relative;
+    }
+
+    .nav-link i {
+      font-size: 10px;
+      transition: transform var(--transition);
+    }
+
+    .nav-dropdown:hover .nav-link i {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 240px;
+      background: var(--white);
+      border-radius: 10px;
+      box-shadow: var(--shadow-lg);
+      padding: 8px 0;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(10px);
+      transition: all 0.25s ease;
+      margin-top: 8px;
+    }
+
+    .nav-dropdown:hover .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .dropdown-menu a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      transition: var(--transition);
+    }
+
+    .dropdown-menu a:hover {
+      background: var(--bg2);
+      color: var(--ice);
+    }
+
+    .dropdown-menu a i {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--bg3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--ice);
+      flex-shrink: 0;
+      transition: var(--transition);
+    }
+
+    .dropdown-menu a:hover i {
+      background: var(--ice);
+      color: var(--white);
+    }
+
+    .dropdown-divider {
+      height: 1px;
+      background: var(--border);
+      margin: 6px 0;
+    }
+
+    /* ========== HEADER RIGHT ========== */
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .header-social {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .header-social a {
+      width: 32px;
+      height: 32px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      transition: var(--transition);
+    }
+
+    .header-social a:hover {
+      background: var(--ice);
+      border-color: var(--ice);
+      color: var(--white);
+      transform: translateY(-1px);
+    }
+
+    .header-cta {
+      background: var(--ice);
+      color: var(--navy);
+      padding: 9px 20px;
+      border-radius: 7px;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .header-cta:hover {
+      background: var(--ice-light);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(0, 180, 216, 0.3);
+      color: var(--navy);
+    }
+
+    /* ========== WHATSAPP FLOAT ========== */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 998;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #25D366;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+      transition: var(--transition);
+      animation: wpPulse 2s infinite;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55);
+      color: #fff;
+    }
+
+    @keyframes wpPulse {
+      0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+      70% { box-shadow: 0 0 0 18px rgba(37, 211, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+    }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 5px;
+      z-index: 1100;
+    }
+
+    .hamburger span {
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    /* ========== MOBILE NAV ========== */
+    .mobile-nav {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 300px;
+      height: 100vh;
+      background: var(--white);
+      z-index: 1050;
+      padding: 80px 24px 30px;
+      transition: right 0.35s ease;
+      box-shadow: -4px 0 24px rgba(0, 0, 0, 0.08);
+      overflow-y: auto;
+    }
+
+    .mobile-nav.active {
+      right: 0;
+    }
+
+    .mobile-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(12, 27, 51, 0.4);
+      z-index: 1040;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition);
+    }
+
+    .mobile-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mobile-nav a {
+      display: block;
+      padding: 14px 0;
+      color: var(--text);
+      font-weight: 500;
+      font-size: 15px;
+      border-bottom: 1px solid var(--bg3);
+    }
+
+    .mobile-nav a:hover {
+      color: var(--ice);
+    }
+
+    .mobile-nav-contact {
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 2px solid var(--bg3);
+    }
+
+    .mobile-nav-contact a {
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 0;
+      font-size: 13px;
+      color: var(--text2);
+    }
+
+    .mobile-nav-contact a i {
+      color: var(--ice);
+      width: 18px;
+      text-align: center;
+    }
+
+    .mobile-nav-cta {
+      display: block;
+      margin-top: 20px;
+      background: var(--navy);
+      color: var(--white);
+      padding: 14px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .mobile-dropdown-toggle {
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mobile-dropdown-toggle i {
+      font-size: 12px;
+      transition: transform var(--transition);
+    }
+
+    .mobile-dropdown.active .mobile-dropdown-toggle i {
+      transform: rotate(180deg);
+    }
+
+    .mobile-dropdown-menu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+    }
+
+    .mobile-dropdown.active .mobile-dropdown-menu {
+      max-height: 400px;
+    }
+
+    .mobile-dropdown-menu a {
+      padding-left: 20px !important;
+      font-size: 14px !important;
+      color: var(--text2) !important;
+    }
+
+    .mobile-dropdown-menu a:hover {
+      color: var(--ice) !important;
+    }
+
+    /* ========== HERO ========== */
+    .hero {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-slide {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-slide::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(10, 22, 40, 0.85) 0%, rgba(10, 22, 40, 0.6) 40%, rgba(10, 22, 40, 0.3) 70%, transparent 100%);
+      z-index: 1;
+    }
+
+    .hero-slide-inner {
+      position: relative;
+      z-index: 2;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+
+    .hero-content {
+      max-width: 600px;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 180, 216, 0.15);
+      border: 1px solid rgba(0, 180, 216, 0.3);
+      padding: 6px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--ice-light);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(4px);
+    }
+
+    .hero-content h1 {
+      font-size: 50px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    .hero-content h1 span {
+      color: var(--ice);
+    }
+
+    .hero-content p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.75);
+      margin-bottom: 36px;
+      max-width: 480px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--ice);
+      color: var(--navy);
+      padding: 15px 34px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-primary:hover {
+      background: var(--ice-light);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(0, 180, 216, 0.35);
+      color: var(--navy);
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(4px);
+      color: var(--white);
+      padding: 15px 34px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-ghost:hover {
+      border-color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.12);
+      transform: translateY(-2px);
+      color: var(--white);
+    }
+
+    .hero .swiper-pagination {
+      bottom: 40px;
+    }
+
+    .hero .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      background: rgba(255, 255, 255, 0.3);
+      opacity: 1;
+      transition: var(--transition);
+    }
+
+    .hero .swiper-pagination-bullet-active {
+      background: var(--ice);
+      width: 32px;
+      border-radius: 5px;
+    }
+
+    /* ========== MARQUEE ========== */
+    .marquee {
+      background: var(--navy);
+      padding: 18px 0;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marqueeScroll 25s linear infinite;
+    }
+
+    .marquee-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 40px;
+      font-size: 15px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.85);
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .marquee-item i {
+      color: var(--ice);
+      font-size: 14px;
+    }
+
+@keyframes marqueeScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    /* ========== SECTION COMMONS ========== */
+    .section {
+      padding: 90px 0;
+    }
+
+    .section-head {
+      margin-bottom: 56px;
+    }
+
+    .section-head.center {
+      text-align: center;
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--ice);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+
+    .section-label i {
+      font-size: 10px;
+    }
+
+    .section-head h2 {
+      font-size: 34px;
+      font-weight: 800;
+      color: var(--navy);
+      line-height: 1.25;
+      margin-bottom: 14px;
+    }
+
+    .section-head p {
+      font-size: 15px;
+      color: var(--text2);
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    .section-head.center p {
+      margin: 0 auto;
+    }
+
+    /* ========== NASIL ÇALIŞIYORUZ ========== */
+    .process {
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .process::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      right: -10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(0, 180, 216, 0.08) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .process .section-head h2 {
+      color: var(--white);
+    }
+
+    .process .section-head p {
+      color: var(--text3);
+    }
+
+    .process .section-label {
+      color: var(--ice-light);
+    }
+
+    .process-grid {
+      display: flex;
+      gap: 20px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .process-step {
+      flex: 1;
+      text-align: center;
+      padding: 28px 20px;
+      position: relative;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .process-step.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .process-number {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: rgba(0, 180, 216, 0.12);
+      border: 2px solid rgba(0, 180, 216, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--ice);
+      margin: 0 auto 18px;
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .process-step:hover .process-number {
+      background: var(--ice);
+      color: var(--navy);
+      border-color: var(--ice);
+      transform: scale(1.1);
+      box-shadow: 0 6px 24px rgba(0, 180, 216, 0.35);
+    }
+
+    .process-step h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    .process-step p {
+      font-size: 12.5px;
+      color: rgba(255, 255, 255, 0.55);
+      line-height: 1.6;
+    }
+
+    .process-line {
+      position: absolute;
+      top: 54px;
+      left: calc(50% + 36px);
+      width: calc(100% - 72px);
+      height: 2px;
+      background: rgba(0, 180, 216, 0.2);
+    }
+
+    .process-line::after {
+      content: '';
+      position: absolute;
+      right: -6px;
+      top: -3px;
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid rgba(0, 180, 216, 0.4);
+      border-right: 2px solid rgba(0, 180, 216, 0.4);
+      transform: rotate(45deg);
+    }
+
+    .process-step:last-child .process-line {
+      display: none;
+    }
+
+    /* ========== KATALOG ========== */
+    .katalog-section {
+      background: var(--bg2);
+      padding: 80px 0;
+    }
+
+    .katalog-inner {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .katalog-visual {
+      flex: 1;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .katalog-book {
+      position: relative;
+      width: 280px;
+      height: 380px;
+      margin: 0 auto;
+      perspective: 800px;
+    }
+
+    .katalog-cover {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, var(--navy) 0%, var(--steel) 100%);
+      border-radius: 4px 16px 16px 4px;
+      box-shadow: -6px 6px 20px rgba(10, 22, 40, 0.3), 0 0 0 1px rgba(0, 180, 216, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      transform-origin: left center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .katalog-visual:hover .katalog-cover {
+      transform: rotateY(-15deg);
+    }
+
+    .katalog-cover::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--ice);
+    }
+
+    .katalog-cover::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 30%, rgba(0, 180, 216, 0.08) 0%, transparent 60%);
+    }
+
+    .katalog-cover-icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: rgba(0, 180, 216, 0.1);
+      border: 1px solid rgba(0, 180, 216, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .katalog-cover-icon i {
+      font-size: 28px;
+      color: var(--ice);
+    }
+
+    .katalog-cover-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+    }
+
+    .katalog-cover-subtitle {
+      font-size: 11px;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .katalog-cover-year {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--ice);
+      position: relative;
+      z-index: 1;
+    }
+
+    .katalog-pages {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: calc(100% - 4px);
+      height: calc(100% - 4px);
+      z-index: -1;
+    }
+
+    .katalog-pages span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #e8edf2;
+      border-radius: 2px 14px 14px 2px;
+    }
+
+    .katalog-pages span:nth-child(1) {
+      transform: translateX(4px);
+    }
+
+    .katalog-pages span:nth-child(2) {
+      transform: translateX(8px);
+      background: #d4dbe3;
+    }
+
+    .katalog-pages span:nth-child(3) {
+      transform: translateX(12px);
+      background: #c0c9d4;
+    }
+
+    .katalog-content {
+      flex: 1;
+    }
+
+    .katalog-content h2 {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 16px;
+      line-height: 1.3;
+    }
+
+    .katalog-content p {
+      font-size: 15px;
+      color: var(--text2);
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+
+    .katalog-features {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+
+    .katalog-feature {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .katalog-feature i {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: rgba(0, 180, 216, 0.1);
+      color: var(--ice);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+
+    .katalog-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--navy);
+      color: var(--white);
+      padding: 16px 32px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+      transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .katalog-btn:hover {
+      background: var(--ice);
+      color: var(--navy);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 180, 216, 0.3);
+    }
+
+    /* Katalog Modal */
+    .katalog-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s ease;
+    }
+
+    .katalog-modal.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .katalog-modal-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(10, 22, 40, 0.85);
+      backdrop-filter: blur(8px);
+    }
+
+    .katalog-modal-container {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      max-height: 90vh;
+      background: var(--white);
+      border-radius: 16px;
+      overflow: hidden;
+      transform: translateY(30px) scale(0.95);
+      transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .katalog-modal.active .katalog-modal-container {
+      transform: translateY(0) scale(1);
+    }
+
+    .katalog-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--bg3);
+      background: var(--navy);
+    }
+
+    .katalog-modal-header h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .katalog-modal-header h3 i {
+      color: var(--ice);
+    }
+
+    .katalog-modal-close {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 16px;
+      transition: var(--transition);
+    }
+
+    .katalog-modal-close:hover {
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .katalog-modal-body {
+      padding: 32px 28px;
+      overflow-y: auto;
+      max-height: calc(90vh - 80px);
+    }
+
+    .katalog-modal-page {
+      margin-bottom: 40px;
+    }
+
+    .katalog-modal-page:last-child {
+      margin-bottom: 0;
+    }
+
+    .katalog-page-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--bg3);
+    }
+
+    .katalog-page-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--navy), var(--steel));
+      color: var(--ice);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .katalog-page-header h4 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .katalog-page-header p {
+      font-size: 13px;
+      color: var(--text3);
+      margin-top: 2px;
+    }
+
+    .katalog-products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .katalog-product {
+      background: var(--bg2);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--bg3);
+      transition: all 0.3s ease;
+    }
+
+    .katalog-product:hover {
+      border-color: var(--ice);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .katalog-product-img {
+      width: 100%;
+      height: 130px;
+      background: var(--bg3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .katalog-product-img i {
+      font-size: 36px;
+      color: var(--border);
+    }
+
+    .katalog-product-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .katalog-product-info {
+      padding: 14px;
+    }
+
+    .katalog-product-info h5 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .katalog-product-info p {
+      font-size: 11px;
+      color: var(--text3);
+      line-height: 1.5;
+    }
+
+    .katalog-modal-footer {
+      padding: 20px 28px;
+      border-top: 1px solid var(--bg3);
+      background: var(--bg2);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .katalog-modal-footer p {
+      font-size: 12px;
+      color: var(--text3);
+    }
+
+    .katalog-modal-footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ice);
+      color: var(--navy);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 13px;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .katalog-modal-footer a:hover {
+      background: var(--ice-light);
+      transform: translateY(-1px);
+    }
+
+    /* ========== REFERANSLAR ========== */
+    .references-section {
+      padding: 70px 0;
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .references-section .section-head {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .references-track {
+      display: flex;
+      gap: 40px;
+      animation: refScroll 12s linear infinite;
+      width: max-content;
+    }
+
+    .references-track:hover {
+      animation-play-state: paused;
+    }
+
+    .ref-logo {
+      flex-shrink: 0;
+      width: 260px;
+      height: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .ref-logo:hover {
+      transform: scale(1.08);
+    }
+
+    .ref-logo img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      filter: grayscale(100%) opacity(0.55);
+      transition: all 0.3s ease;
+    }
+
+    .ref-logo:hover img {
+      filter: grayscale(0%) opacity(1);
+    }
+
+    @keyframes refScroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(calc(-100% / 5));
+      }
+    }
+
+    /* ========== FAQ ========== */
+    .faq-section {
+      padding: 90px 0;
+      background: var(--bg2);
+    }
+
+    .faq-grid {
+      display: flex;
+      gap: 60px;
+      align-items: flex-start;
+    }
+
+    .faq-left {
+      flex: 1;
+    }
+
+    .faq-right {
+      width: 340px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 120px;
+    }
+
+    .faq-right-card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 36px 30px;
+      color: var(--text);
+      border: 1px solid var(--bg3);
+      box-shadow: var(--shadow-md);
+    }
+
+    .faq-right-card .faq-right-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+      background: rgba(0, 180, 216, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 22px;
+    }
+
+    .faq-right-card .faq-right-icon i {
+      font-size: 24px;
+      color: var(--ice);
+    }
+
+    .faq-right-card h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .faq-right-card p {
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+
+    .faq-right-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--ice);
+      color: var(--navy);
+      padding: 13px 24px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+      width: 100%;
+      justify-content: center;
+    }
+
+    .faq-right-btn:hover {
+      background: var(--ice-light);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 180, 216, 0.3);
+    }
+
+    .faq-right-phone {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--bg3);
+      color: var(--text3);
+      font-size: 13px;
+    }
+
+    .faq-right-phone i {
+      color: var(--ice);
+    }
+
+    .faq-right-phone a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border-radius: 12px;
+      margin-bottom: 12px;
+      border: 1px solid var(--bg3);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .faq-item:hover {
+      border-color: var(--border);
+    }
+
+    .faq-item.active {
+      border-color: var(--ice);
+      box-shadow: 0 4px 16px rgba(0, 180, 216, 0.08);
+    }
+
+    .faq-question {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 24px;
+      cursor: pointer;
+      gap: 16px;
+      user-select: none;
+    }
+
+    .faq-question h4 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .faq-item.active .faq-question h4 {
+      color: var(--ice-dark);
+    }
+
+    .faq-toggle {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: var(--bg2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.3s ease;
+    }
+
+    .faq-toggle i {
+      font-size: 13px;
+      color: var(--text3);
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .faq-toggle {
+      background: var(--ice);
+    }
+
+    .faq-item.active .faq-toggle i {
+      color: var(--white);
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .faq-answer-inner {
+      padding: 0 24px 20px;
+      font-size: 14px;
+      color: var(--text2);
+      line-height: 1.8;
+    }
+
+    /* ========== ABOUT ========== */
+    .about-grid {
+      display: flex;
+      gap: 60px;
+      align-items: stretch;
+    }
+
+    .about-scroll-gallery {
+      flex: 1;
+      position: relative;
+      height: 560px;
+      overflow: hidden;
+      border-radius: 16px;
+    }
+
+    .about-scroll-gallery::before,
+    .about-scroll-gallery::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 80px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .about-scroll-gallery::before {
+      top: 0;
+      background: linear-gradient(to bottom, var(--white) 0%, transparent 100%);
+    }
+
+    .about-scroll-gallery::after {
+      bottom: 0;
+      background: linear-gradient(to top, var(--white) 0%, transparent 100%);
+    }
+
+    .about-scroll-track {
+      display: flex;
+      gap: 14px;
+    }
+
+    .about-scroll-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      animation: aboutScrollUp 25s linear infinite;
+    }
+
+    .about-scroll-col:nth-child(2) {
+      animation: aboutScrollDown 28s linear infinite;
+    }
+
+    .about-scroll-gallery:hover .about-scroll-col {
+      animation-play-state: paused;
+    }
+
+    .about-scroll-item {
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .about-scroll-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .about-scroll-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .about-scroll-item-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 12px 14px;
+      background: linear-gradient(to top, rgba(10, 22, 40, 0.85), transparent);
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    @keyframes aboutScrollUp {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+
+    @keyframes aboutScrollDown {
+      0% { transform: translateY(-50%); }
+      100% { transform: translateY(0); }
+    }
+
+    .about-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .about-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .about-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .about-list li i {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      background: rgba(77, 161, 169, 0.1);
+      color: var(--ice);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .about-buttons {
+      display: flex;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .btn-secondary {
+      background: var(--navy);
+      color: var(--white);
+      padding: 13px 28px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-secondary:hover {
+      background: var(--navy-light);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      color: var(--white);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      padding: 13px 28px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--ice);
+      color: var(--ice);
+      transform: translateY(-2px);
+    }
+
+    /* ========== FAALİYET ALANLARI ========== */
+    .activities {
+      background: var(--bg2);
+    }
+
+    .activities-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .activity-card {
+      flex: 1 1 calc(33.333% - 16px);
+      min-width: 280px;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      height: 360px;
+      cursor: pointer;
+      transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      opacity: 0;
+      transform: translateY(40px);
+    }
+
+    .activity-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .activity-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 24px 56px rgba(10, 22, 40, 0.22);
+    }
+
+    .activity-card-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .activity-card:hover .activity-card-bg {
+      transform: scale(1.1);
+    }
+
+    .activity-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(10, 22, 40, 0.05) 0%, rgba(10, 22, 40, 0.8) 100%);
+      transition: background 0.5s ease;
+    }
+
+    .activity-card:hover .activity-card-overlay {
+      background: linear-gradient(180deg, rgba(0, 180, 216, 0.08) 0%, rgba(10, 22, 40, 0.9) 100%);
+    }
+
+    .activity-card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 28px;
+      z-index: 2;
+      transform: translateY(20px);
+      transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .activity-card:hover .activity-card-content {
+      transform: translateY(0);
+    }
+
+    .activity-card-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 14px;
+      background: rgba(0, 180, 216, 0.15);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: var(--ice-light);
+      margin-bottom: 16px;
+      border: 1px solid rgba(0, 180, 216, 0.2);
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+      transform: scale(1) rotate(0deg);
+    }
+
+    .activity-card:hover .activity-card-icon {
+      background: var(--ice);
+      color: var(--white);
+      border-color: var(--ice);
+      transform: scale(1.1) rotate(-5deg);
+      box-shadow: 0 8px 24px rgba(0, 180, 216, 0.35);
+    }
+
+    .activity-card-content h3 {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+      transition: transform 0.4s ease;
+    }
+
+    .activity-card:hover .activity-card-content h3 {
+      transform: translateX(4px);
+    }
+
+    .activity-card-content p {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.6;
+      margin-bottom: 16px;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .activity-card:hover .activity-card-content p {
+      max-height: 60px;
+      opacity: 1;
+    }
+
+    .activity-card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ice-light);
+      opacity: 0;
+      transform: translateX(-10px);
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+    }
+
+    .activity-card:hover .activity-card-link {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .activity-card-link i {
+      font-size: 11px;
+      transition: transform 0.3s ease;
+    }
+
+    .activity-card:hover .activity-card-link i {
+      transform: translateX(4px);
+    }
+
+    /* Kart arası border çizgi efekti */
+    .activity-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 28px;
+      right: 28px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--ice), transparent);
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .activity-card:hover::after {
+      opacity: 1;
+    }
+
+    /* ========== WHY US ========== */
+    .why-grid {
+      display: flex;
+      gap: 24px;
+    }
+
+    .why-card {
+      flex: 1;
+      padding: 32px 24px;
+      border-radius: 10px;
+      text-align: center;
+      background: var(--white);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+
+    .why-card:hover {
+      border-color: var(--ice);
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .why-number {
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--ice);
+      margin-bottom: 4px;
+    }
+
+    .why-label {
+      font-size: 13px;
+      color: var(--text2);
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    .why-divider {
+      width: 30px;
+      height: 2px;
+      background: var(--border);
+      margin: 0 auto 16px;
+    }
+
+    .why-card p {
+      font-size: 13px;
+      color: var(--text3);
+      line-height: 1.6;
+    }
+
+    /* ========== CTA ========== */
+    .cta {
+      background: var(--navy);
+      padding: 60px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(77, 161, 169, 0.12) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .cta-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .cta-content h2 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    .cta-content p {
+      font-size: 15px;
+      color: var(--text3);
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .btn-ice {
+      background: var(--ice);
+      color: var(--navy);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-ice:hover {
+      background: var(--ice-light);
+      transform: translateY(-2px);
+      color: var(--navy);
+    }
+
+    .btn-white-outline {
+      background: transparent;
+      color: var(--white);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .btn-white-outline:hover {
+      border-color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.05);
+      transform: translateY(-2px);
+      color: var(--white);
+    }
+
+    /* ========== HİZMETLERİMİZ ========== */
+    .hizmetler-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .hizmet-card {
+      flex: 1 1 calc(50% - 14px);
+      min-width: 320px;
+      display: flex;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .hizmet-card.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .hizmet-card:hover {
+      border-color: transparent;
+      box-shadow: 0 16px 48px rgba(10, 22, 40, 0.12);
+      transform: translateY(-6px);
+    }
+
+    .hizmet-card-image {
+      width: 130px;
+      min-height: 150px;
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hizmet-card-image::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0, 180, 216, 0.15) 0%, rgba(10, 22, 40, 0.25) 100%);
+      transition: opacity 0.5s ease;
+    }
+
+    .hizmet-card:hover .hizmet-card-image::before {
+      opacity: 0;
+    }
+
+    .hizmet-card-image-inner {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .hizmet-card:hover .hizmet-card-image-inner {
+      transform: scale(1.08);
+    }
+
+    .hizmet-card-body {
+      flex: 1;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hizmet-card-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--bg3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--ice);
+      margin-bottom: 10px;
+      transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .hizmet-card:hover .hizmet-card-icon {
+      background: var(--ice);
+      color: var(--white);
+      transform: rotate(-5deg) scale(1.08);
+      box-shadow: 0 6px 18px rgba(0, 180, 216, 0.3);
+    }
+
+    .hizmet-card-body h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 4px;
+      transition: transform 0.4s ease;
+    }
+
+    .hizmet-card:hover .hizmet-card-body h3 {
+      transform: translateX(3px);
+    }
+
+    .hizmet-card-body p {
+      font-size: 12px;
+      color: var(--text2);
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+
+    .hizmet-card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--ice);
+      transition: all 0.3s ease;
+    }
+
+    .hizmet-card-link i {
+      font-size: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .hizmet-card:hover .hizmet-card-link {
+      color: var(--ice-dark);
+    }
+
+    .hizmet-card:hover .hizmet-card-link i {
+      transform: translateX(4px);
+    }
+
+    /* ========== İLETİŞİM ========== */
+    .contact-section {
+      padding: 90px 0;
+      background: var(--bg2);
+    }
+
+    .ct-wrap {
+      display: flex;
+      gap: 0;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--bg3);
+      background: var(--white);
+    }
+
+    .ct-map {
+      flex: 1;
+      min-height: 380px;
+      background: linear-gradient(135deg, var(--navy), var(--steel));
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ct-map-inner {
+      text-align: center;
+      padding: 48px;
+    }
+
+    .ct-pin {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: rgba(0, 180, 216, 0.1);
+      border: 2px solid rgba(0, 180, 216, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      color: var(--ice);
+      margin: 0 auto 24px;
+      animation: ctPulse 2.5s ease infinite;
+    }
+
+    @keyframes ctPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(0, 180, 216, 0.25); }
+      50% { box-shadow: 0 0 0 18px rgba(0, 180, 216, 0); }
+    }
+
+    .ct-map-inner h3 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    .ct-map-inner p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 1.7;
+    }
+
+    .ct-info {
+      flex: 1;
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .ct-line {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--bg3);
+      transition: 0.3s;
+    }
+
+    .ct-line:last-child {
+      border-bottom: none;
+    }
+
+    .ct-line:hover {
+      padding-left: 8px;
+    }
+
+    .ct-line-ic {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      flex-shrink: 0;
+      background: rgba(0, 180, 216, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--ice);
+      transition: 0.3s;
+    }
+
+    .ct-line:hover .ct-line-ic {
+      background: var(--ice);
+      color: var(--white);
+    }
+
+    .ct-line-txt span {
+      display: block;
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text3);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 4px;
+    }
+
+    .ct-line-txt a,
+    .ct-line-txt p {
+      font-size: 15px;
+      color: var(--text);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .ct-line-txt a:hover {
+      color: var(--ice);
+    }
+
+    /* ========== BLOG ========== */
+    .blog {
+      background: var(--bg2);
+    }
+
+    .blog-grid {
+      display: flex;
+      gap: 24px;
+    }
+
+    .blog-card {
+      flex: 1;
+      background: var(--white);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+
+    .blog-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: transparent;
+    }
+
+    .blog-thumb {
+      height: 200px;
+      background: var(--bg3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .blog-thumb i {
+      font-size: 40px;
+      color: var(--border);
+    }
+
+    .blog-body {
+      padding: 22px;
+    }
+
+    .blog-meta {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 12px;
+      color: var(--text3);
+      margin-bottom: 10px;
+    }
+
+    .blog-meta span {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .blog-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .blog-body h3:hover {
+      color: var(--ice);
+    }
+
+    .blog-body p {
+      font-size: 13px;
+      color: var(--text2);
+      line-height: 1.6;
+    }
+
+    /* ========== FOOTER ========== */
+    .footer {
+      background: var(--navy);
+      padding: 60px 0 0;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+
+    .footer-logo i {
+      color: var(--ice);
+    }
+
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .footer-nav a {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .footer-nav a:hover {
+      color: var(--ice);
+    }
+
+    .footer-social-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.3);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 16px;
+    }
+
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+
+    .footer-social a {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.5);
+      transition: all 0.3s ease;
+    }
+
+    .footer-social a:hover {
+      background: var(--ice);
+      color: var(--navy);
+      border-color: var(--ice);
+      transform: translateY(-3px);
+    }
+
+    .footer-contact {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-contact-item i {
+      color: var(--ice);
+      font-size: 14px;
+    }
+
+    .footer-contact-item span,
+    .footer-contact-item a {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.45);
+      text-decoration: none;
+    }
+
+    .footer-contact-item a:hover {
+      color: var(--ice);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 18px 0;
+    }
+
+    .footer-bottom p {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    .footer-bottom a {
+      color: rgba(255, 255, 255, 0.35);
+      text-decoration: none;
+    }
+
+    .footer-bottom a:hover {
+      color: var(--ice);
+    }
+
+    /* ========== STICKY FOOTER (MOBILE) ========== */
+    .sticky-footer {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.08);
+      z-index: 999;
+      padding: 8px 0;
+    }
+
+    .sticky-footer-grid {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .sticky-footer a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 10px;
+      color: var(--text2);
+      gap: 3px;
+    }
+
+    .sticky-footer a i {
+      font-size: 18px;
+    }
+
+    .sticky-footer a.highlight {
+      color: var(--ice);
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 1024px) {
+      .hero-content h1 {
+        font-size: 40px;
+      }
+
+      .about-grid {
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .about-scroll-gallery {
+        height: 400px;
+      }
+
+      .activity-card {
+        flex: 1 1 calc(50% - 12px);
+        height: 300px;
+      }
+
+      .cta-inner {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .why-grid {
+        flex-wrap: wrap;
+      }
+
+      .why-card {
+        flex: 1 1 calc(50% - 12px);
+      }
+
+      .blog-grid {
+        flex-wrap: wrap;
+      }
+
+      .blog-card {
+        flex: 1 1 calc(50% - 12px);
+      }
+
+      .katalog-inner {
+        gap: 40px;
+      }
+
+      .katalog-book {
+        width: 220px;
+        height: 300px;
+      }
+
+      .faq-right {
+        width: 280px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header .nav,
+      .header-right {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .hero-content h1 {
+        font-size: 30px;
+      }
+
+      .hero-content p {
+        font-size: 15px;
+      }
+
+      .section {
+        padding: 60px 0;
+      }
+
+      .section-head h2 {
+        font-size: 26px;
+      }
+
+      .activity-card {
+        flex: 1 1 100%;
+        height: 260px;
+      }
+
+      .process-grid {
+        flex-wrap: wrap;
+      }
+
+      .process-step {
+        flex: 1 1 calc(50% - 10px);
+      }
+
+      .process-line {
+        display: none;
+      }
+
+      .why-card {
+        flex: 1 1 100%;
+      }
+
+      .hizmet-card {
+        flex: 1 1 100%;
+      }
+
+      .hizmet-card-image {
+        width: 140px;
+        min-height: 180px;
+      }
+
+      .blog-card {
+        flex: 1 1 100%;
+      }
+
+      .katalog-inner {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+      }
+
+      .katalog-section {
+        padding: 60px 0;
+      }
+
+      .katalog-features {
+        align-items: center;
+      }
+
+      .katalog-products {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .katalog-modal-container {
+        width: 95%;
+      }
+
+      .faq-grid {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .faq-right {
+        width: 100%;
+        position: static;
+      }
+
+      .faq-section {
+        padding: 60px 0;
+      }
+
+      .contact-section {
+        padding: 60px 0;
+      }
+
+      .ct-wrap {
+        flex-direction: column;
+      }
+
+      .ct-map {
+        min-height: 240px;
+      }
+
+      .ct-info {
+        padding: 30px 24px;
+      }
+
+      .footer-nav {
+        gap: 20px;
+      }
+
+      .footer-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .sticky-footer {
+        display: block;
+      }
+
+      body {
+        padding-bottom: 70px;
+      }
+
+      .whatsapp-float {
+        bottom: 80px;
+        right: 18px;
+        width: 54px;
+        height: 54px;
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .hero-content h1 {
+        font-size: 26px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero-buttons a {
+        justify-content: center;
+      }
+
+      .hero-tag {
+        font-size: 11px;
+      }
+
+      .hizmet-card {
+        flex-direction: column;
+      }
+
+      .hizmet-card-image {
+        width: 100%;
+        min-height: 180px;
+        height: 180px;
+      }
+
+      .katalog-products {
+        grid-template-columns: 1fr;
+      }
+
+      .katalog-book {
+        width: 200px;
+        height: 270px;
+      }
+
+      .katalog-cover-title {
+        font-size: 15px;
+      }
+
+      .katalog-cover-year {
+        font-size: 22px;
+      }
+
+      .katalog-modal-footer {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-left">
+          <a href="#" class="logo">
+            <img src="https://i.hizliresim.com/jyved15.png" alt="Özgün Soğutma">
+          </a>
+        </div>
+        <nav class="nav">
+          <a href="#" class="active">Anasayfa</a>
+          <a href="#about">Kurumsal</a>
+            <div class="nav-dropdown">
+              <div class="nav-link">Faaliyet Alanları <i class="fas fa-chevron-down"></i></div>
+              <div class="dropdown-menu">
+                <a href="#products"><i class="fas fa-warehouse"></i> Soğuk Hava Depoları</a>
+                <a href="#products"><i class="fas fa-snowflake"></i> Şok Odası Sistemleri</a>
+                <a href="#products"><i class="fas fa-temperature-low"></i> Endüstriyel Soğutma</a>
+                <div class="dropdown-divider"></div>
+                <a href="#products"><i class="fas fa-store"></i> Soğutucu Reyonlar</a>
+                <a href="#products"><i class="fas fa-th-large"></i> Raf Sistemleri</a>
+                <a href="#products"><i class="fas fa-utensils"></i> Mutfak Ekipmanları</a>
+              </div>
+            </div>
+            <div class="nav-dropdown">
+              <div class="nav-link">Çözümler <i class="fas fa-chevron-down"></i></div>
+              <div class="dropdown-menu">
+                <a href="#services"><i class="fas fa-drumstick-bite"></i> Gıda & Et Tesisleri</a>
+                <a href="#services"><i class="fas fa-shopping-cart"></i> Süpermarket Projeleri</a>
+                <a href="#services"><i class="fas fa-hotel"></i> Otel & Restoran</a>
+                <a href="#services"><i class="fas fa-industry"></i> Endüstriyel Tesisler</a>
+              </div>
+            </div>
+          <a href="#services">Satış Sonrası</a>
+          <a href="#contact">İletişim</a>
+        </nav>
+        <div class="header-right">
+          <div class="header-social">
+            <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MOBILE NAV ========== -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#">Anasayfa</a>
+    <a href="#about">Kurumsal</a>
+    <div class="mobile-dropdown">
+      <a href="#products" class="mobile-dropdown-toggle">Faaliyet Alanları <i class="fas fa-chevron-down"></i></a>
+      <div class="mobile-dropdown-menu">
+        <a href="#products">Soğuk Hava Depoları</a>
+        <a href="#products">Şok Odası Sistemleri</a>
+        <a href="#products">Endüstriyel Soğutma</a>
+        <a href="#products">Soğutucu Reyonlar</a>
+        <a href="#products">Raf Sistemleri</a>
+        <a href="#products">Mutfak Ekipmanları</a>
+      </div>
+    </div>
+    <div class="mobile-dropdown">
+      <a href="#services" class="mobile-dropdown-toggle">Çözümler <i class="fas fa-chevron-down"></i></a>
+      <div class="mobile-dropdown-menu">
+        <a href="#services">Gıda & Et Tesisleri</a>
+        <a href="#services">Süpermarket Projeleri</a>
+        <a href="#services">Otel & Restoran</a>
+        <a href="#services">Endüstriyel Tesisler</a>
+      </div>
+    </div>
+    <a href="#after-sales">Satış Sonrası</a>
+    <a href="#contact">İletişim</a>
+    <div class="mobile-nav-contact">
+      <a href="tel:+902821234567"><i class="fas fa-phone"></i> 0282 123 45 67</a>
+      <a href="mailto:info@ozgunsogutma.com"><i class="fas fa-envelope"></i> info@ozgunsogutma.com</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> Tekirdağ, Türkiye</a>
+    </div>
+    <a href="#contact" class="mobile-nav-cta">Teklif Al</a>
+  </div>
+
+  <!-- ========== HERO SLIDER ========== -->
+  <section class="hero">
+    <div class="swiper hero-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1579896274795-2c6af1f579b5?q=80&w=1920&auto=format&fit=crop');">
+            <div class="hero-slide-inner">
+              <div class="hero-content">
+                <div class="hero-tag"><i class="fas fa-snowflake"></i> Endüstriyel Soğutma Çözümleri</div>
+                <h1>Soğuk Hava Depoları ve <span>Endüstriyel Soğutma</span></h1>
+                <p>Gıda tesisleri ve endüstriyel işletmeler için anahtar teslim soğutma projeleri sunuyoruz.</p>
+                <div class="hero-buttons">
+                  <a href="#products" class="btn-primary">İncele <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1760463921697-6ab2c0caca20?q=80&w=1920&auto=format&fit=crop');">
+            <div class="hero-slide-inner">
+              <div class="hero-content">
+                <div class="hero-tag"><i class="fas fa-warehouse"></i> Şok Odası & Soğuk Depo</div>
+                <h1>Şok Odası ve <span>Soğuk Hava Depo Sistemleri</span></h1>
+                <p>Et işleme tesisleri ve gıda fabrikaları için yüksek performanslı şok odası ve soğuk hava depo çözümleri sunuyoruz.</p>
+                <div class="hero-buttons">
+                  <a href="#services" class="btn-primary">İncele <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="hero-slide" style="background-image: url('https://plus.unsplash.com/premium_photo-1672847671572-360c3bd9aee8?q=80&w=1920&auto=format&fit=crop');">
+            <div class="hero-slide-inner">
+              <div class="hero-content">
+                <div class="hero-tag"><i class="fas fa-store"></i> Ticari Soğutma Reyonları</div>
+                <h1>Süpermarket ve <span>Mağaza Soğutma Çözümleri</span></h1>
+                <p>Soğutucu reyonlar, vitrin dolapları ve ticari raf sistemleri ile mağazanızın soğutma altyapısını komple kuruyoruz.</p>
+                <div class="hero-buttons">
+                  <a href="#after-sales" class="btn-primary">İncele <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span class="marquee-item"><i class="fas fa-snowflake"></i> Endüstriyel Soğutma</span>
+
+      <span class="marquee-item"><i class="fas fa-leaf"></i> Doğa Dostu Sistemler</span>
+
+      <span class="marquee-item"><i class="fas fa-headset"></i> 7/24 Teknik Destek</span>
+
+      <span class="marquee-item"><i class="fas fa-award"></i> 15 Yıllık Tecrübe</span>
+
+      <span class="marquee-item"><i class="fas fa-key"></i> Anahtar Teslim Projeler</span>
+
+      <span class="marquee-item"><i class="fas fa-bolt"></i> Enerji Verimli Çözümler</span>
+
+      <span class="marquee-item"><i class="fas fa-shield-halved"></i> Garanti Kapsamında Hizmet</span>
+
+      <span class="marquee-item"><i class="fas fa-wifi"></i> Uzaktan İzleme Sistemi</span>
+
+      <!-- Tekrar (sonsuz döngü için) -->
+      <span class="marquee-item"><i class="fas fa-snowflake"></i> Endüstriyel Soğutma</span>
+
+      <span class="marquee-item"><i class="fas fa-leaf"></i> Doğa Dostu Sistemler</span>
+
+      <span class="marquee-item"><i class="fas fa-headset"></i> 7/24 Teknik Destek</span>
+
+      <span class="marquee-item"><i class="fas fa-award"></i> 15 Yıllık Tecrübe</span>
+
+      <span class="marquee-item"><i class="fas fa-key"></i> Anahtar Teslim Projeler</span>
+
+      <span class="marquee-item"><i class="fas fa-bolt"></i> Enerji Verimli Çözümler</span>
+
+      <span class="marquee-item"><i class="fas fa-shield-halved"></i> Garanti Kapsamında Hizmet</span>
+
+      <span class="marquee-item"><i class="fas fa-wifi"></i> Uzaktan İzleme Sistemi</span>
+
+    </div>
+  </div>
+
+  <!-- ========== FAALİYET ALANLARI ========== -->
+  <section class="activities section" id="products">
+    <div class="container">
+      <div class="section-head center">
+        <div class="section-label"><i class="fas fa-circle"></i> Faaliyet Alanları</div>
+        <h2>Soğutma Sistemleri & Ekipmanları</h2>
+        <p>Endüstriyel soğutmadan ticari reyonlara, soğuk hava depolarından mutfak ekipmanlarına kadar geniş faaliyet alanımız.</p>
+      </div>
+      <div class="activities-grid">
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://static8.depositphotos.com/1003580/1042/i/450/depositphotos_10421356-stock-photo-white-boxes-warehouse.jpg');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-warehouse"></i></div>
+            <h3>Soğuk Hava Depoları</h3>
+            <p>Prefabrik panellerle özel ölçü soğuk hava deposu projelendirme, üretim ve montaj.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://www.teknoteksogutma.com/wp-content/uploads/2018/07/soklama-odasi-02.png');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Şok Odası Sistemleri</h3>
+            <p>Gıda güvenliği standartlarına uygun hızlı soğutma ve şok dondurma odaları.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://frigoblock.com.tr/upload/orta_endustriyel_sogutma_sistemi.jpeg');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-temperature-low"></i></div>
+            <h3>Endüstriyel Soğutma</h3>
+            <p>Chiller sistemleri, kondenser üniteleri ve endüstriyel proses soğutma çözümleri.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://images.unsplash.com/photo-1604719312566-8912e9227c6a?q=80&w=900&auto=format&fit=crop');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-store"></i></div>
+            <h3>Soğutucu Reyonlar</h3>
+            <p>Süpermarket ve mağazalar için açık/kapalı tip soğutucu vitrin ve reyonlar.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=900&auto=format&fit=crop');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-th-large"></i></div>
+            <h3>Raf Sistemleri</h3>
+            <p>Soğuk hava depoları ve market reyonları için endüstriyel raf çözümleri.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="activity-card">
+          <div class="activity-card-bg" style="background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=900&auto=format&fit=crop');"></div>
+          <div class="activity-card-overlay"></div>
+          <div class="activity-card-content">
+            <div class="activity-card-icon"><i class="fas fa-utensils"></i></div>
+            <h3>Mutfak Ekipmanları</h3>
+            <p>Endüstriyel buzdolabı, tezgah tipi soğutucular ve profesyonel mutfak çözümleri.</p>
+            <a href="#" class="activity-card-link">İncele <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HİZMETLERİMİZ ========== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head center">
+        <div class="section-label"><i class="fas fa-circle"></i> Hizmetlerimiz</div>
+        <h2>Profesyonel Soğutma Hizmetleri</h2>
+        <p>Projelendirmeden montaja, bakımdan acil müdahaleye kadar uçtan uca hizmet sunuyoruz.</p>
+      </div>
+      <div class="hizmetler-grid">
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=600&auto=format&fit=crop');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-clipboard-list"></i></div>
+            <h3>Projelendirme & Danışmanlık</h3>
+            <p>Kapasite hesabından ekipman seçimine kadar tüm süreci planlıyoruz.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=600&auto=format&fit=crop');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-truck-loading"></i></div>
+            <h3>Kurulum & Montaj</h3>
+            <p>Soğutma sistemlerinizin montajını ve devreye alma işlemini gerçekleştiriyoruz.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=600&auto=format&fit=crop');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-sync-alt"></i></div>
+            <h3>Periyodik Bakım</h3>
+            <p>Düzenli bakım ile ekipman ömrünü uzatıyor, verimliliği artırıyoruz.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-wrench"></i></div>
+            <h3>Teknik Servis & Arıza</h3>
+            <p>7/24 acil arıza hattı ile hızlı tespit ve onarım hizmeti veriyoruz.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600&auto=format&fit=crop');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-wifi"></i></div>
+            <h3>Uzaktan İzleme</h3>
+            <p>IoT tabanlı sistem ile sıcaklık ve performans verilerini anlık takip edin.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="hizmet-card">
+          <div class="hizmet-card-image">
+            <div class="hizmet-card-image-inner" style="background-image: url('https://www.teknootomotiv.com.tr/content/images/service/malatya-oto-yedek-parca-hizmeti-4802-max.webp');"></div>
+          </div>
+          <div class="hizmet-card-body">
+            <div class="hizmet-card-icon"><i class="fas fa-cubes"></i></div>
+            <h3>Yedek Parça Temini</h3>
+            <p>Orijinal yedek parça stoğu ile minimum bekleme süresi sağlıyoruz.</p>
+            <a href="#" class="hizmet-card-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NASIL ÇALIŞIYORUZ ========== -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-head center">
+        <div class="section-label"><i class="fas fa-circle"></i> Nasıl Çalışıyoruz?</div>
+        <h2>4 Adımda Soğutma Çözümünüz Hazır</h2>
+        <p>İhtiyaç analizinden devreye almaya kadar tüm süreci şeffaf ve profesyonel yönetiyoruz.</p>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-number">1</div>
+          <h3>Keşif & İhtiyaç Analizi</h3>
+          <p>İşletmenizi yerinde ziyaret ediyor, mevcut altyapıyı inceliyor ve soğutma ihtiyaçlarınızı detaylıca belirliyoruz.</p>
+          <div class="process-line"></div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">2</div>
+          <h3>Projelendirme & Teklif</h3>
+          <p>Kapasite hesaplamaları yapıyor, uygun ekipmanları seçiyor ve detaylı teknik teklif hazırlıyoruz.</p>
+          <div class="process-line"></div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">3</div>
+          <h3>Üretim & Montaj</h3>
+          <p>Onay sonrası üretim ve tedarik sürecini başlatıyor, uzman ekibimizle yerinde montajı gerçekleştiriyoruz.</p>
+          <div class="process-line"></div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">4</div>
+          <h3>Devreye Alma & Destek</h3>
+          <p>Sistemi test edip devreye alıyoruz. Periyodik bakım ve 7/24 teknik destek ile yanınızda olmaya devam ediyoruz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KATALOG ========== -->
+  <section class="katalog-section" id="katalog">
+    <div class="container">
+      <div class="katalog-inner">
+        <div class="katalog-visual" onclick="openKatalog()">
+          <div class="katalog-book">
+            <div class="katalog-pages">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="katalog-cover">
+              <div class="katalog-cover-icon">
+                <i class="fas fa-snowflake"></i>
+              </div>
+              <div class="katalog-cover-title">Ürün Kataloğu</div>
+              <div class="katalog-cover-subtitle">Özgün Teknik Soğutma</div>
+              <div class="katalog-cover-year">2026</div>
+            </div>
+          </div>
+        </div>
+        <div class="katalog-content">
+          <div class="section-label"><i class="fas fa-circle"></i> Katalog</div>
+          <h2>Ürün ve Hizmet Kataloğumuzu İnceleyin</h2>
+          <p>Soğuk hava depoları, şok odaları, endüstriyel soğutma sistemleri ve daha fazlası hakkında detaylı teknik bilgilere kataloğumuzdan ulaşabilirsiniz.</p>
+          <div class="katalog-features">
+            <div class="katalog-feature">
+              <i class="fas fa-check"></i>
+              <span>Tüm ürün grupları ve teknik özellikler</span>
+            </div>
+            <div class="katalog-feature">
+              <i class="fas fa-check"></i>
+              <span>Proje referansları ve uygulama görselleri</span>
+            </div>
+            <div class="katalog-feature">
+              <i class="fas fa-check"></i>
+              <span>Kapasite ve boyut bilgileri</span>
+            </div>
+          </div>
+          <button class="katalog-btn" onclick="openKatalog()">
+            <i class="fas fa-book-open"></i> Kataloğu Aç
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Katalog Modal -->
+  <div class="katalog-modal" id="katalogModal">
+    <div class="katalog-modal-overlay" onclick="closeKatalog()"></div>
+    <div class="katalog-modal-container">
+      <div class="katalog-modal-header">
+        <h3><i class="fas fa-snowflake"></i> Özgün Teknik Soğutma - Ürün Kataloğu 2026</h3>
+        <button class="katalog-modal-close" onclick="closeKatalog()"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="katalog-modal-body">
+
+        <!-- Sayfa 1: Soğuk Hava Depoları -->
+        <div class="katalog-modal-page">
+          <div class="katalog-page-header">
+            <div class="katalog-page-icon"><i class="fas fa-warehouse"></i></div>
+            <div>
+              <h4>Soğuk Hava Depoları</h4>
+              <p>Endüstriyel ve ticari soğuk hava depo çözümleri</p>
+            </div>
+          </div>
+          <div class="katalog-products">
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://static8.depositphotos.com/1003580/1042/i/450/depositphotos_10421356-stock-photo-white-boxes-warehouse.jpg" alt="Prefabrik Soğuk Oda">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Prefabrik Soğuk Oda</h5>
+                <p>Modüler panel sistemli, 0°C / +4°C muhafaza</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400" alt="Derin Dondurucu Depo">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Derin Dondurucu Depo</h5>
+                <p>-18°C / -25°C arası, et ve deniz ürünleri için</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=400" alt="Kontrollü Atmosfer">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Kontrollü Atmosfer</h5>
+                <p>Meyve-sebze muhafazası, CO₂/O₂ kontrollü</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sayfa 2: Şok Odaları -->
+        <div class="katalog-modal-page">
+          <div class="katalog-page-header">
+            <div class="katalog-page-icon"><i class="fas fa-bolt"></i></div>
+            <div>
+              <h4>Şok Odaları</h4>
+              <p>Hızlı soğutma ve şoklama sistemleri</p>
+            </div>
+          </div>
+          <div class="katalog-products">
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://www.teknoteksogutma.com/wp-content/uploads/2018/07/soklama-odasi-02.png" alt="Şok Odası">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Blast Freezer</h5>
+                <p>-35°C hızlı dondurma, 500-5000 kg/gün kapasite</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400" alt="Şoklama Tüneli">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Şoklama Tüneli</h5>
+                <p>Konveyörlü sürekli şoklama, endüstriyel üretim hattı</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400" alt="Hızlı Soğutma Ünitesi">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Hızlı Soğutma Ünitesi</h5>
+                <p>Pişmiş ürünler için +90°C'den +3°C'ye 90 dakikada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sayfa 3: Endüstriyel Soğutma -->
+        <div class="katalog-modal-page">
+          <div class="katalog-page-header">
+            <div class="katalog-page-icon"><i class="fas fa-industry"></i></div>
+            <div>
+              <h4>Endüstriyel Soğutma Sistemleri</h4>
+              <p>Fabrika ve üretim tesisleri için soğutma çözümleri</p>
+            </div>
+          </div>
+          <div class="katalog-products">
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://frigoblock.com.tr/upload/orta_endustriyel_sogutma_sistemi.jpeg" alt="Chiller Sistem">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Chiller Sistemleri</h5>
+                <p>Su soğutmalı ve hava soğutmalı chiller üniteleri</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400" alt="Kondenser Üniteleri">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Kondenser Üniteleri</h5>
+                <p>Yüksek verimli, düşük enerji tüketimli kondenserler</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="Otomasyon Panelleri">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Otomasyon Panelleri</h5>
+                <p>PLC kontrollü akıllı soğutma yönetim sistemi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sayfa 4: Ticari Ekipmanlar -->
+        <div class="katalog-modal-page">
+          <div class="katalog-page-header">
+            <div class="katalog-page-icon"><i class="fas fa-store"></i></div>
+            <div>
+              <h4>Ticari Soğutma Ekipmanları</h4>
+              <p>Market, restoran ve otel ekipmanları</p>
+            </div>
+          </div>
+          <div class="katalog-products">
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=400" alt="Soğutucu Reyonlar">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Soğutucu Reyonlar</h5>
+                <p>Dikey, yatay ve ada tipi soğutucu reyonlar</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" alt="Mutfak Ekipmanları">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Mutfak Ekipmanları</h5>
+                <p>Endüstriyel buzdolabı, tezgahaltı soğutucu, buzluk</p>
+              </div>
+            </div>
+            <div class="katalog-product">
+              <div class="katalog-product-img">
+                <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=400" alt="Raf Sistemleri">
+              </div>
+              <div class="katalog-product-info">
+                <h5>Raf Sistemleri</h5>
+                <p>Soğuk hava deposu raf ve shelving çözümleri</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="katalog-modal-footer">
+        <p><i class="fas fa-info-circle"></i> Detaylı fiyat bilgisi için bizimle iletişime geçin.</p>
+        <a href="#iletisim" onclick="closeKatalog()"><i class="fas fa-phone"></i> İletişime Geç</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== REFERANSLAR ========== -->
+  <section class="references-section" id="referanslar">
+    <div class="container">
+      <div class="section-head" style="text-align:center;">
+        <div class="section-label" style="justify-content:center;"><i class="fas fa-circle"></i> Referanslar</div>
+        <h2>Güvenilir Çözüm Ortağınız</h2>
+      </div>
+    </div>
+    <div class="references-track">
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-vektor-logo-tasarim-sablonu-endustriyel-bina-veya-fabrika-rozeti_18099-5361.jpg" alt="Referans 1"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-logo-tasarim-vektor-sablonu_580224-2405.jpg" alt="Referans 2"></div>
+      <div class="ref-logo"><img src="https://s.tmimgcdn.com/scr/800x500/287900/fabrika-binasi-modern-endustriyel-logo-tasarlamak-vektor_287909-original.jpg" alt="Referans 3"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-vektor-logo-tasarim-sablonu-endustriyel-bina-veya-fabrika-rozeti_18099-5361.jpg" alt="Referans 1"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-logo-tasarim-vektor-sablonu_580224-2405.jpg" alt="Referans 2"></div>
+      <div class="ref-logo"><img src="https://s.tmimgcdn.com/scr/800x500/287900/fabrika-binasi-modern-endustriyel-logo-tasarlamak-vektor_287909-original.jpg" alt="Referans 3"></div>
+      <!-- Duplicate sets for seamless infinite scroll -->
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-vektor-logo-tasarim-sablonu-endustriyel-bina-veya-fabrika-rozeti_18099-5361.jpg" alt="Referans 1"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-logo-tasarim-vektor-sablonu_580224-2405.jpg" alt="Referans 2"></div>
+      <div class="ref-logo"><img src="https://s.tmimgcdn.com/scr/800x500/287900/fabrika-binasi-modern-endustriyel-logo-tasarlamak-vektor_287909-original.jpg" alt="Referans 3"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-vektor-logo-tasarim-sablonu-endustriyel-bina-veya-fabrika-rozeti_18099-5361.jpg" alt="Referans 1"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-logo-tasarim-vektor-sablonu_580224-2405.jpg" alt="Referans 2"></div>
+      <div class="ref-logo"><img src="https://s.tmimgcdn.com/scr/800x500/287900/fabrika-binasi-modern-endustriyel-logo-tasarlamak-vektor_287909-original.jpg" alt="Referans 3"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-vektor-logo-tasarim-sablonu-endustriyel-bina-veya-fabrika-rozeti_18099-5361.jpg" alt="Referans 1"></div>
+      <div class="ref-logo"><img src="https://img.freepik.com/premium-vektor/fabrika-logo-tasarim-vektor-sablonu_580224-2405.jpg" alt="Referans 2"></div>
+      <div class="ref-logo"><img src="https://s.tmimgcdn.com/scr/800x500/287900/fabrika-binasi-modern-endustriyel-logo-tasarlamak-vektor_287909-original.jpg" alt="Referans 3"></div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq-section" id="sss">
+    <div class="container">
+      <div class="section-head" style="text-align:center; margin-bottom:50px;">
+        <div class="section-label" style="justify-content:center;"><i class="fas fa-circle"></i> Sık Sorulan Sorular</div>
+        <h2>Merak Edilenler</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-left">
+
+          <div class="faq-item active">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <h4>Soğuk hava deposu kurulumu ne kadar sürer?</h4>
+              <div class="faq-toggle"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="faq-answer" style="max-height:200px;">
+              <div class="faq-answer-inner">Projenin büyüklüğüne göre değişmekle birlikte, standart bir soğuk hava deposu kurulumu ortalama 2-4 hafta içerisinde tamamlanmaktadır. Keşif, projelendirme ve üretim süreçleri dahil toplam süre genellikle 4-8 haftadır.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <h4>Hangi bölgelere hizmet veriyorsunuz?</h4>
+              <div class="faq-toggle"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Merkezimiz Tekirdağ'da olmakla birlikte Trakya bölgesi başta olmak üzere Türkiye genelinde hizmet vermekteyiz. İstanbul, Edirne, Kırklareli ve çevre illerde aktif olarak projelerimiz devam etmektedir.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <h4>Garanti ve bakım hizmetiniz var mı?</h4>
+              <div class="faq-toggle"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Tüm kurulum ve montaj projelerimiz 2 yıl garanti kapsamındadır. Ayrıca periyodik bakım anlaşmalarımızla sistemlerinizin verimli çalışmasını sağlıyor, 7/24 teknik destek hattımızla acil durumlarda yanınızda oluyoruz.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <h4>Enerji tasarrufu konusunda ne gibi çözümler sunuyorsunuz?</h4>
+              <div class="faq-toggle"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Yüksek verimli kompresör ve evaporatör seçimleri, akıllı otomasyon panelleri, LED aydınlatma ve yalıtım optimizasyonu ile enerji tüketimini %30'a kadar azaltan çözümler sunuyoruz. Mevcut sistemleriniz için de enerji verimliliği analizi yapıyoruz.</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              <h4>Mevcut soğutma sistemimi yenileyebilir misiniz?</h4>
+              <div class="faq-toggle"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">Evet, mevcut soğutma sistemlerinin modernizasyonu ve revizyonu hizmetlerimiz arasındadır. Sistemlerinizi yerinde inceleyerek kapasite artırımı, enerji verimliliği iyileştirmesi veya komple yenileme konusunda size en uygun çözümü öneriyoruz.</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="faq-right">
+          <div class="faq-right-card">
+            <div class="faq-right-icon"><i class="fas fa-headset"></i></div>
+            <h3>Aklınıza takılan başka bir soru mu var?</h3>
+            <p>Uzman ekibimiz tüm sorularınızı yanıtlamak için hazır. Ücretsiz keşif ve danışmanlık hizmetimizden faydalanın.</p>
+            <a href="#iletisim" class="faq-right-btn"><i class="fas fa-paper-plane"></i> Bize Yazın</a>
+            <div class="faq-right-phone">
+              <i class="fas fa-phone"></i>
+              <span>Bizi arayın: <a href="tel:+905001234567">0500 123 45 67</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-scroll-gallery">
+          <div class="about-scroll-track">
+            <!-- Kolon 1 - Yukarı kayan -->
+            <div class="about-scroll-col">
+              <div class="about-scroll-item">
+                <img src="https://static8.depositphotos.com/1003580/1042/i/450/depositphotos_10421356-stock-photo-white-boxes-warehouse.jpg" alt="Soğuk Hava Deposu">
+                <div class="about-scroll-item-label">Soğuk Hava Deposu</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://frigoblock.com.tr/upload/orta_endustriyel_sogutma_sistemi.jpeg" alt="Endüstriyel Soğutma">
+                <div class="about-scroll-item-label">Endüstriyel Soğutma</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400" alt="Proses Soğutma">
+                <div class="about-scroll-item-label">Proses Soğutma</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400" alt="Depo Sistemleri">
+                <div class="about-scroll-item-label">Depo Sistemleri</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400" alt="Montaj Hizmeti">
+                <div class="about-scroll-item-label">Montaj Hizmeti</div>
+              </div>
+              <!-- Duplicate for seamless loop -->
+              <div class="about-scroll-item">
+                <img src="https://static8.depositphotos.com/1003580/1042/i/450/depositphotos_10421356-stock-photo-white-boxes-warehouse.jpg" alt="Soğuk Hava Deposu">
+                <div class="about-scroll-item-label">Soğuk Hava Deposu</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://frigoblock.com.tr/upload/orta_endustriyel_sogutma_sistemi.jpeg" alt="Endüstriyel Soğutma">
+                <div class="about-scroll-item-label">Endüstriyel Soğutma</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400" alt="Proses Soğutma">
+                <div class="about-scroll-item-label">Proses Soğutma</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400" alt="Depo Sistemleri">
+                <div class="about-scroll-item-label">Depo Sistemleri</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400" alt="Montaj Hizmeti">
+                <div class="about-scroll-item-label">Montaj Hizmeti</div>
+              </div>
+            </div>
+            <!-- Kolon 2 - Aşağı kayan -->
+            <div class="about-scroll-col">
+              <div class="about-scroll-item">
+                <img src="https://www.teknoteksogutma.com/wp-content/uploads/2018/07/soklama-odasi-02.png" alt="Şok Odası">
+                <div class="about-scroll-item-label">Şok Odası</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=400" alt="Soğutucu Reyon">
+                <div class="about-scroll-item-label">Soğutucu Reyon</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400" alt="Kondenser Ünitesi">
+                <div class="about-scroll-item-label">Kondenser Ünitesi</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" alt="Mutfak Ekipmanları">
+                <div class="about-scroll-item-label">Mutfak Ekipmanları</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="Otomasyon Sistemi">
+                <div class="about-scroll-item-label">Otomasyon Sistemi</div>
+              </div>
+              <!-- Duplicate for seamless loop -->
+              <div class="about-scroll-item">
+                <img src="https://www.teknoteksogutma.com/wp-content/uploads/2018/07/soklama-odasi-02.png" alt="Şok Odası">
+                <div class="about-scroll-item-label">Şok Odası</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=400" alt="Soğutucu Reyon">
+                <div class="about-scroll-item-label">Soğutucu Reyon</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400" alt="Kondenser Ünitesi">
+                <div class="about-scroll-item-label">Kondenser Ünitesi</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" alt="Mutfak Ekipmanları">
+                <div class="about-scroll-item-label">Mutfak Ekipmanları</div>
+              </div>
+              <div class="about-scroll-item">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="Otomasyon Sistemi">
+                <div class="about-scroll-item-label">Otomasyon Sistemi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-head">
+            <div class="section-label"><i class="fas fa-circle"></i> Kurumsal</div>
+            <h2>Endüstriyel Soğutmada Anahtar Teslim Çözümler</h2>
+            <p>Özgün Teknik Soğutma olarak 25 yılı aşkın deneyimimizle soğuk hava depoları, şok odası sistemleri ve endüstriyel soğutma tesisleri konusunda Trakya bölgesinin lider firmalarından biriyiz.</p>
+          </div>
+          <ul class="about-list">
+            <li><i class="fas fa-check"></i> Soğuk hava deposu projelendirme, üretim ve montaj</li>
+            <li><i class="fas fa-check"></i> Şok odası ve hızlı soğutma sistemleri kurulumu</li>
+            <li><i class="fas fa-check"></i> Süpermarket ve mağaza soğutma reyonları</li>
+            <li><i class="fas fa-check"></i> Endüstriyel proses soğutma çözümleri</li>
+            <li><i class="fas fa-check"></i> Uzaktan izleme, periyodik bakım ve 7/24 teknik servis</li>
+          </ul>
+          <div class="about-buttons">
+            <a href="#iletisim" class="btn-secondary">Teklif Alın <i class="fas fa-arrow-right"></i></a>
+            <a href="#faaliyetler" class="btn-outline">Faaliyet Alanlarımız</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY US (COUNTER) ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <div class="section-label"><i class="fas fa-circle"></i> Neden Biz?</div>
+        <h2>Rakamlarla Özgün Teknik Soğutma</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-number" data-target="750">0</div>
+          <div class="why-label">Tamamlanan Tesis</div>
+          <div class="why-divider"></div>
+          <p>Soğuk hava deposu, şok odası ve endüstriyel tesis kurulumu.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number" data-target="25" data-suffix="+">0</div>
+          <div class="why-label">Yıl Sektör Deneyimi</div>
+          <div class="why-divider"></div>
+          <p>Endüstriyel soğutma sektöründe köklü tecrübe.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number" data-target="35">0</div>
+          <div class="why-label">Uzman Teknisyen</div>
+          <div class="why-divider"></div>
+          <p>Saha deneyimli teknik servis ve montaj ekibi.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-number" data-target="7">0</div>
+          <div class="why-label">Gün / 24 Saat Destek</div>
+          <div class="why-divider"></div>
+          <p>Uzaktan izleme ve acil müdahale ile kesintisiz hizmet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== İLETİŞİM ========== -->
+  <section class="contact-section" id="iletisim">
+    <div class="container">
+      <div class="section-head" style="text-align:center;">
+        <div class="section-label" style="justify-content:center;"><i class="fas fa-circle"></i> İletişim</div>
+        <h2>Bize Ulaşın</h2>
+      </div>
+      <div class="ct-wrap">
+        <div class="ct-map">
+          <div class="ct-map-inner">
+            <div class="ct-pin"><i class="fas fa-map-marker-alt"></i></div>
+            <h3>Tekirdağ, Türkiye</h3>
+            <p>Çorlu Organize Sanayi Bölgesi<br>1. Cadde No: 12, Çorlu / Tekirdağ</p>
+          </div>
+        </div>
+        <div class="ct-info">
+          <div class="ct-line">
+            <div class="ct-line-ic"><i class="fas fa-phone-alt"></i></div>
+            <div class="ct-line-txt">
+              <span>Telefon</span>
+              <a href="tel:+902821234567">0 (282) 123 45 67</a>
+            </div>
+          </div>
+          <div class="ct-line">
+            <div class="ct-line-ic"><i class="fab fa-whatsapp"></i></div>
+            <div class="ct-line-txt">
+              <span>WhatsApp</span>
+              <a href="https://wa.me/905001234567">0 (500) 123 45 67</a>
+            </div>
+          </div>
+          <div class="ct-line">
+            <div class="ct-line-ic"><i class="fas fa-envelope"></i></div>
+            <div class="ct-line-txt">
+              <span>E-Posta</span>
+              <a href="mailto:info@ozgunsogutma.com">info@ozgunsogutma.com</a>
+            </div>
+          </div>
+          <div class="ct-line">
+            <div class="ct-line-ic"><i class="fas fa-clock"></i></div>
+            <div class="ct-line-txt">
+              <span>Çalışma Saatleri</span>
+              <p>Pzt - Cmt: 08:00 - 18:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo"><i class="fas fa-snowflake"></i> Özgün Soğutma</div>
+      <div class="footer-nav">
+        <a href="#">Ana Sayfa</a>
+        <a href="#about">Hakkımızda</a>
+        <a href="#faaliyetler">Faaliyet Alanları</a>
+        <a href="#katalog">Katalog</a>
+        <a href="#iletisim">İletişim</a>
+      </div>
+      <div class="footer-social-label">Bizi Takip Edin!</div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="footer-contact">
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Organize Sanayi Bölgesi, 1. Cadde No: 12, Çorlu / Tekirdağ</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+902821234567">0 (282) 123 45 67</a>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:info@ozgunsogutma.com">info@ozgunsogutma.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright 2026 &copy; Özgün Teknik Soğutma · Tasarım: <a href="https://clicktopeak.com" target="_blank">Click to Peak</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== STICKY FOOTER (MOBILE) ========== -->
+  <div class="sticky-footer">
+    <div class="container">
+      <div class="sticky-footer-grid">
+        <a href="tel:+902821234567" class="highlight"><i class="fas fa-phone"></i> Ara</a>
+        <a href="https://wa.me/905001234567" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://maps.google.com" target="_blank"><i class="fas fa-map-marker-alt"></i> Yol Tarifi</a>
+        <a href="mailto:info@ozgunsogutma.com"><i class="fas fa-envelope"></i> E-Posta</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== WHATSAPP FLOAT ========== -->
+  <a href="https://wa.me/905001234567" class="whatsapp-float" target="_blank" title="WhatsApp ile iletişime geçin">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // Header scroll shadow
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile nav toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    const mobileOverlay = document.getElementById('mobileOverlay');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileNav.classList.toggle('active');
+      mobileOverlay.classList.toggle('active');
+      document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+    });
+
+    const closeMobileNav = () => {
+      hamburger.classList.remove('active');
+      mobileNav.classList.remove('active');
+      mobileOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
+    mobileOverlay.addEventListener('click', closeMobileNav);
+    mobileNav.querySelectorAll('a:not(.mobile-nav-cta):not(.mobile-dropdown-toggle)').forEach(a => {
+      a.addEventListener('click', closeMobileNav);
+    });
+
+    // Mobile dropdown toggle
+    document.querySelectorAll('.mobile-dropdown-toggle').forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        toggle.closest('.mobile-dropdown').classList.toggle('active');
+      });
+    });
+
+    // Hero Slider
+    new Swiper('.hero-slider', {
+      loop: true,
+      autoplay: { delay: 5000, disableOnInteraction: false },
+      effect: 'fade',
+      fadeEffect: { crossFade: true },
+      pagination: { el: '.hero .swiper-pagination', clickable: true }
+    });
+
+    // Activity Cards - staggered reveal
+    const activityCards = document.querySelectorAll('.activity-card');
+    const activityObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const card = entry.target;
+          const index = [...activityCards].indexOf(card);
+          setTimeout(() => {
+            card.classList.add('visible');
+          }, index * 120);
+          activityObserver.unobserve(card);
+        }
+      });
+    }, { threshold: 0.15 });
+    activityCards.forEach(c => activityObserver.observe(c));
+
+    // Hizmet Cards - staggered reveal
+    const hizmetCards = document.querySelectorAll('.hizmet-card');
+    const hizmetObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const card = entry.target;
+          const index = [...hizmetCards].indexOf(card);
+          setTimeout(() => {
+            card.classList.add('visible');
+          }, index * 100);
+          hizmetObserver.unobserve(card);
+        }
+      });
+    }, { threshold: 0.1 });
+    hizmetCards.forEach(c => hizmetObserver.observe(c));
+
+    // Process Steps - staggered reveal
+    const processSteps = document.querySelectorAll('.process-step');
+    const processObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const step = entry.target;
+          const index = [...processSteps].indexOf(step);
+          setTimeout(() => {
+            step.classList.add('visible');
+          }, index * 150);
+          processObserver.unobserve(step);
+        }
+      });
+    }, { threshold: 0.2 });
+    processSteps.forEach(s => processObserver.observe(s));
+
+    // Counter Animation
+    const counters = document.querySelectorAll('.why-number');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = +el.dataset.target;
+          let current = 0;
+          const step = target / 40;
+          const suffix = el.dataset.suffix || (el.dataset.target === '7' ? '/24' : '+');
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              current = target;
+              clearInterval(timer);
+            }
+            el.textContent = Math.floor(current) + suffix;
+          }, 30);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    counters.forEach(c => counterObserver.observe(c));
+
+    // FAQ Toggle
+    function toggleFaq(el) {
+      const item = el.parentElement;
+      const answer = item.querySelector('.faq-answer');
+      const isActive = item.classList.contains('active');
+
+      document.querySelectorAll('.faq-item').forEach(faq => {
+        faq.classList.remove('active');
+        faq.querySelector('.faq-answer').style.maxHeight = '0';
+      });
+
+      if (!isActive) {
+        item.classList.add('active');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    }
+
+    // Katalog Modal
+    function openKatalog() {
+      document.getElementById('katalogModal').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeKatalog() {
+      document.getElementById('katalogModal').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closeKatalog();
+    });
+  </script>
+
+</body>
+
+</html>
